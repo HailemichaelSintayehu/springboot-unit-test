@@ -1,0 +1,15 @@
+## Enable H2 console (you can remove this if you don't need it)
+#spring.h2.console.enabled=true
+#  # default path: h2-console
+#spring.h2.console.path=/h2-ui
+#
+  # MySQL Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/mysql
+spring.datasource.username=root
+spring.datasource.password=12345678
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+  
+  # Hibernate Configuration
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+#spring.jpa.hibernate.ddl-auto=update
